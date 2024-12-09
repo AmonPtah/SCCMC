@@ -1,41 +1,24 @@
-[11:13:56] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at apr.b(SourceFile:62) ~[server-1.21.jar:?]
-	at apo.a(SourceFile:141) ~[server-1.21.jar:?]
-	at app.<init>(SourceFile:12) ~[server-1.21.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:114) ~[server-1.21.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:13:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:13:58] [ServerMain/INFO]: No existing world data, creating new world
-[11:13:59] [ServerMain/INFO]: Loaded 1290 recipes
-[11:13:59] [ServerMain/INFO]: Loaded 1399 advancements
-[11:14:01] [Server thread/INFO]: Starting minecraft server version 1.21
-[11:14:01] [Server thread/INFO]: Loading properties
-[11:14:01] [Server thread/INFO]: Default game type: SURVIVAL
-[11:14:01] [Server thread/INFO]: Generating keypair
-[11:14:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:14:01] [Server thread/INFO]: Using epoll channel type
-[11:14:01] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[11:14:01] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[11:14:01] [Server thread/WARN]: Perhaps a server is already running on that port?
-[11:14:01] [Server thread/ERROR]: Encountered an unexpected exception
+[11:15:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:15:59] [ServerMain/INFO]: Loaded 1290 recipes
+[11:16:00] [ServerMain/INFO]: Loaded 1399 advancements
+[11:16:00] [Server thread/INFO]: Starting minecraft server version 1.21
+[11:16:00] [Server thread/INFO]: Loading properties
+[11:16:00] [Server thread/INFO]: Default game type: SURVIVAL
+[11:16:00] [Server thread/INFO]: Generating keypair
+[11:16:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:16:01] [Server thread/INFO]: Using epoll channel type
+[11:16:01] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[11:16:01] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[11:16:01] [Server thread/WARN]: Perhaps a server is already running on that port?
+[11:16:01] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to initialize server
 	at net.minecraft.server.MinecraftServer.y(SourceFile:716) ~[server-1.21.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:281) ~[server-1.21.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:14:01] [Server thread/ERROR]: This crash report has been saved to: /workspaces/SCCMC/servidor_minecraft/crash-reports/crash-2024-12-09_11.14.01-server.txt
-[11:14:01] [Server thread/INFO]: Stopping server
-[11:14:01] [Server thread/INFO]: Saving worlds
-[11:14:01] [Server thread/ERROR]: Exception stopping the server
+[11:16:01] [Server thread/ERROR]: This crash report has been saved to: /workspaces/SCCMC/servidor_minecraft/crash-reports/crash-2024-12-09_11.16.01-server.txt
+[11:16:01] [Server thread/INFO]: Stopping server
+[11:16:01] [Server thread/INFO]: Saving worlds
+[11:16:01] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: Cannot invoke "aqu.C_()" because "$$5" is null
 	at net.minecraft.server.MinecraftServer.a(SourceFile:561) ~[server-1.21.jar:?]
 	at net.minecraft.server.MinecraftServer.v(SourceFile:620) ~[server-1.21.jar:?]
